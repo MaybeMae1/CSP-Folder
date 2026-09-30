@@ -1,9 +1,15 @@
+#Ronan Anderson
+#Mr.Perez
+#8/30/26
+
+#Slushee Ordering System
+
 def order_slushee(username):
     print("Hello " + username + "!")
     cost = int(input("How many slushees would you like?: ")) * 1.99
     if (cost > 4):
         print("Suprise! Today's deal is by 3 or more, get one free!")
-        print("Your total is $%.2f" % (cost - 1.99))
+        print("Your total is $%.2f" % (cost - 1.99)) #
     else:
         print("Your total is $%.2f" % cost)
 
